@@ -11,7 +11,7 @@ const App = () => {
 	const [inp, setInp] = useState("");
 	const [isNew, setIsNew] = useState(false);
 	const [count, setCount] = useState(0);
-	const [isDark, setIsDark] = useState(false);
+	const [isDark, setIsDark] = useState(true);
 	const [dragover, setDragover] = useState(null);
 
 	const addToDo = (e) => {
@@ -56,7 +56,7 @@ const App = () => {
 	};
 
 	return (
-		<div id='app' className='app light'>
+		<div id='app' className='app light dark'>
 			<div className='header__container'>
 				<div className='header'>
 					<div className='title__container'>
@@ -67,15 +67,19 @@ const App = () => {
 							alt='icon'
 						></img>
 					</div>
-					<form onSubmit={addToDo} className='input'>
+					<form title='Create New ToDo' onSubmit={addToDo} className='input'>
 						<div className={`check ${isNew && "checked"}`}>
 							{isNew && <img src={checkIcon} alt='check'></img>}
 						</div>
 						<input
+							name='input_TODO'
 							onChange={handleInput}
 							value={inp}
 							placeholder='Create a new todo..'
 						/>
+						<button type='submit' className='add__button'>
+							+
+						</button>
 					</form>
 				</div>
 			</div>

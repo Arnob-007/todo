@@ -88,6 +88,13 @@
 	);
 }
 
+.add__button {
+	border: 2px solid var(--border-color);
+	background-color: var(--bg);
+	color: var(--text-color);
+	cursor: pointer;
+}
+
 .todos__container {
 	display: flex;
 	justify-content: center;
