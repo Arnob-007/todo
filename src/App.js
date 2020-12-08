@@ -72,6 +72,7 @@ const App = () => {
 							{isNew && <img src={checkIcon} alt='check'></img>}
 						</div>
 						<input
+							title='Type your TODO'
 							name='input_TODO'
 							onChange={handleInput}
 							value={inp}
