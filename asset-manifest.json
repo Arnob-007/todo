@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/todo/static/css/main.08bdaeea.chunk.css",
-    "main.js": "/todo/static/js/main.2498183a.chunk.js",
-    "main.js.map": "/todo/static/js/main.2498183a.chunk.js.map",
+    "main.css": "/todo/static/css/main.212060ce.chunk.css",
+    "main.js": "/todo/static/js/main.f905db3c.chunk.js",
+    "main.js.map": "/todo/static/js/main.f905db3c.chunk.js.map",
     "runtime-main.js": "/todo/static/js/runtime-main.d0e622ac.js",
     "runtime-main.js.map": "/todo/static/js/runtime-main.d0e622ac.js.map",
     "static/js/2.b549e762.chunk.js": "/todo/static/js/2.b549e762.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2853d36e.chunk.js": "/todo/static/js/3.2853d36e.chunk.js",
     "static/js/3.2853d36e.chunk.js.map": "/todo/static/js/3.2853d36e.chunk.js.map",
     "index.html": "/todo/index.html",
-    "static/css/main.08bdaeea.chunk.css.map": "/todo/static/css/main.08bdaeea.chunk.css.map",
+    "static/css/main.212060ce.chunk.css.map": "/todo/static/css/main.212060ce.chunk.css.map",
     "static/js/2.b549e762.chunk.js.LICENSE.txt": "/todo/static/js/2.b549e762.chunk.js.LICENSE.txt",
     "static/media/App.css": "/todo/static/media/bg-desktop-light.3508d620.jpg",
     "static/media/icon-check.a8fb15d0.svg": "/todo/static/media/icon-check.a8fb15d0.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0e622ac.js",
     "static/js/2.b549e762.chunk.js",
-    "static/css/main.08bdaeea.chunk.css",
-    "static/js/main.2498183a.chunk.js"
+    "static/css/main.212060ce.chunk.css",
+    "static/js/main.f905db3c.chunk.js"
   ]
 }
